@@ -14,6 +14,9 @@ A Media Monetisation Network using Lisk Protocol
 
 # Technology
 - Lisk SDK
+- Lisk Sidechains
+- NPM
+- NodeJS
 
 # Roadmap
 - Integration of Zero Knowledge Proofs
