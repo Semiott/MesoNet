@@ -1,6 +1,6 @@
 
-Media Methods Maker (M3) Platform using Lisk Protocol
-=========================================
+Media Methods Maker (M3) using Lisk Protocol
+============================================
 
 # Problem
 - Lack of traceability in the international print media
