@@ -66,13 +66,13 @@ class PublishingTransaction extends BaseTransaction {
 
     applyAsset(store){            
         const mediaAccount = store.account.get(this.senderId);
-        const mediaAccountBalanceDeducted= new utils.BigNum(restaurantAccount.balance).sub(new utils.BigNum(this.amount));
+        const mediaAccountBalanceDeducted= new utils.BigNum(mediaAccount.balance).sub(new utils.BigNum(this.amount));
 
         const updatedNews = {
             ...mediaAccount,
             balance: mediaAccountBalanceDeducted.toString()
         }
-        store.account.set(mediaAccount.address, updatedRestaurant);
+        store.account.set(mediaAccount.address, updatedMedia);
 
         const delivery = store.account.get(this.recipientId);
         const deliveryPayed = new utils.BigNum(delivery.balance).add(new utils.BigNum(this.amount));
