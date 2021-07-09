@@ -1,33 +1,25 @@
-# Getting Started with Lisk Blockchain Client
 
-This project was bootstrapped with [Lisk SDK](https://github.com/LiskHQ/lisk-sdk)
+Media Methods Maker (M3) Platform using Lisk Protocol
+=========================================
 
-### Start a node
-```
-./bin/run start
-```
+# Problem
+- Lack of traceability in the international print media
+- Excess of centralisation in the regional print media
+- Lack of interoperability between print media networks
+- Limited scalability for print media messaging systems
 
-### Add a new module
-```
-lisk generate:module ModuleName ModuleID
-// Example
-lisk generate:module token 1
-```
+# Solution
+- Time Tokenisation of print media content
+- Conversion of print media into non fungible tokens
 
-### Add a new asset
-```
-lisk generate:asset ModuleName AssetName AssetID
-// Example
-lisk generate:asset token transfer 1
-```
+# Technology
+- Lisk SDK
 
-### Add a new plugin
-```
-lisk generate:plugin PluginAlias
-// Example
-lisk generate:plugin httpAPI
-```
+# Roadmap
+- Integration of Zero Knowledge Proofs
+- Integration of Verifiable Delay Functions
+- Implementation of Time Tokens using Lisk Protocols
+- Implementation of Non Fungible Tokens on Lisk Protocols
 
-## Learn More
-
-You can learn more in the [documentation](https://lisk.io/documentation/lisk-sdk/index.html).
+# Acknowledgement
+- This project was bootstrapped with [Lisk SDK](https://github.com/LiskHQ/lisk-sdk)
