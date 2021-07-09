@@ -1,6 +1,6 @@
 
-Media Methods Maker (M3) using Lisk Protocol
-============================================
+A Media Monetisation Network using Lisk Protocol
+================================================
 
 # Problem
 - Lack of traceability in the international print media
