@@ -1,4 +1,3 @@
-
 A Media Monetisation Network using Lisk Protocol
 ================================================
 
@@ -26,3 +25,34 @@ A Media Monetisation Network using Lisk Protocol
 
 # Acknowledgement
 - This project was bootstrapped with [Lisk SDK](https://github.com/LiskHQ/lisk-sdk)
+
+## Inspiration
+- Orkut
+- Netflix
+- YouTube
+- Vimeo
+- Wikileaks
+- Wikipedia
+
+## What it does
+- Time Tokenisation of New Media 
+
+## How we built it
+- Lisk Protocol
+- NodeJS
+- JavaScript
+
+## Challenges we ran into
+- Lack of explanatory videos on Lisk Protocol
+- Lack of developer blogs on Lisk Protocol
+
+## Accomplishments that we're proud of
+- Innovations on the lifecycle of New Media 
+
+## What we learned
+- Lisk Protocol
+- NodeJS
+- JavaScript
+
+## What's next for MesoNet
+- Deployment on a Local News Network
