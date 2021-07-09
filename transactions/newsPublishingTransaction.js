@@ -98,7 +98,7 @@ class PublishingTransaction extends BaseTransaction {
             ...mediaAccount,
             balance: mediaAccountWithFoodRequest.toString()
         }
-        store.account.set(mediaAccount.address, updatedRestaurant);
+        store.account.set(mediaAccount.address, updatedMedia);
 
         const delivery = store.account.get(this.recipientId);
         const deliveryDeducted = new utils.BigNum(delivery.balance).sub(new utils.BigNum(this.amount));
