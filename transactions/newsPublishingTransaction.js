@@ -68,7 +68,7 @@ class PublishingTransaction extends BaseTransaction {
         const mediaAccount = store.account.get(this.senderId);
         const mediaAccountBalanceDeducted= new utils.BigNum(mediaAccount.balance).sub(new utils.BigNum(this.amount));
 
-        const updatedNews = {
+        const updatedMedia = {
             ...mediaAccount,
             balance: mediaAccountBalanceDeducted.toString()
         }
